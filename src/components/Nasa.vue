@@ -54,7 +54,6 @@ export default {
         method: 'GET'
       }).then((response) => {
         const dataPage = response.data;
-   
         this.marsPhotos = dataPage.photos;
         this.setupPagination(this.marsPhotos);
       

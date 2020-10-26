@@ -40,11 +40,10 @@ export default{
 </script>
 <style scoped>
 	.parent{
-	display: grid;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	align-items: start;
-
+		display: grid;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		align-items: start;
 	}
 	.card{
 		box-shadow: 8px 8px 15px black;
